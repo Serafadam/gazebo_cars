@@ -18,9 +18,9 @@
       </inertial>
       <collision name="collision">
         <geometry>
-          <box>
-            <size>1 1 1</size>
-          </box>
+          <mesh>
+            <uri>model://car_046/meshes/car_046.dae</uri>
+          </mesh>
         </geometry>
       </collision>
       <visual name="visual">
